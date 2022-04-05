@@ -10,7 +10,7 @@ public class run {
         Connection conn=gc.connect_to_db();
         Error_ e=new Error_("to je napaka");
         System.out.println(db.insert(conn));
-
+        System.out.println("76");
     }
 
 }
