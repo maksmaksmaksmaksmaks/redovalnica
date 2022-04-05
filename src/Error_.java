@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -7,10 +6,10 @@ import java.awt.event.ActionListener;
 public class Error_ extends JFrame {
     private JLabel label;
     private JButton button1;
-    private JPanel panel;
+    private JPanel panel1;
 
     public Error_(String x){
-        setContentPane(panel);
+        setContentPane(panel1);
         setTitle("c");
         setVisible(true);
         setSize(300,300);
